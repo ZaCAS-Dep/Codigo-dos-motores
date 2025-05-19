@@ -1,14 +1,14 @@
 //Olá, iremos fazer um código com o uso da programação no Arduíno IDE para o robô segue faixa:
 //Iremos fazer as definições dos pinos de controle do motor, ou seja, suas saídas e entradas, envolvendo sensores e ponte H 
-#define SL 8 //sensor para esquerda
-#define SF 9 //sensor para direita
-#define SR 10 //sensor para frente
+#define SL 8 //Definindo os sensores para a leitura
+#define SF 9 
+#define SR 10 
 #define IN1 7 //saída 1
 #define IN2 6 //saída 2
 #define IN3 5 //saída 3
 #define IN4 4 //saída 4
-#define ENA 11 //controla a velocidade do motor pela ponte H
-#define ENB 12 //controla a velocidade do motor pela ponte H
+#define ENA 3 //controla a velocidade do motor pela ponte H
+#define ENB 13 //controla a velocidade do motor pela ponte H
 int SensorL = 0;
 int SensorF = 0;
 int SensorR = 0; 
