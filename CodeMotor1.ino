@@ -86,9 +86,9 @@ void LeituraSensores() {
 //Lógica para o robô seguir as curvas
     void ControleDoRobo() 
 {
-    if(SensorD == 1 && SensorE == 0 && SensorF == 1)  { RoboParaFrente(); } // 0 = Branca (Sem reflexão de luzes) 1 = Preto (Reflete luz para o sensor)
-    if(SensorD == 0 && SensorE == 1 && SensorF == 1)  { RoboParaEsquerda(); }
-    if(SensorD == 1 && SensorE == 1 && SensorF == 0)  { RoboParaDireita(); }
+    if(SensorD == 1 && SensorE == 0 && SensorF == 1)  { RoboParaEsquerda(); } // 0 = Branca (Sem reflexão de luzes) 1 = Preto (Reflete luz para o sensor)
+    if(SensorD == 0 && SensorE == 1 && SensorF == 1)  { RoboParaDireita(); }
+    if(SensorD == 1 && SensorE == 1 && SensorF == 0)  { RoboParaFrente(); }
 }
 
   
